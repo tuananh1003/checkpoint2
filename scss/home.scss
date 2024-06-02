@@ -1,0 +1,23 @@
+@import 'base/reset';
+.checkpoint{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px black solid;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
+#logout{
+    padding: 10px 20px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
