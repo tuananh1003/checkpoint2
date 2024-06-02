@@ -15,7 +15,7 @@ const xulydangky=(e)=>{
     const user = userCredential.user;
     // ...
     alert('dang nhap thanh cong')
-    window.location.href='./home.html'
+    window.location.href='./index.html'
   })
   .catch((error) => {
     const errorCode = error.code;
